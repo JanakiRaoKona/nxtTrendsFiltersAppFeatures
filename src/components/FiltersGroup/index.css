@@ -1,0 +1,84 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.image {
+  height: 20px;
+}
+ul {
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+li {
+  cursor: pointer;
+  margin-top: 5px;
+}
+.search-container {
+  background-color: #f1f5f9;
+  height: 30px;
+  width: 200px;
+  border-radius: 6px;
+  margin-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-element {
+  background: none;
+  border: none;
+  outline: none;
+}
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #0f172a;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #12022f;
+}
+
+.list-category {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.active-button {
+  color: #0967d2;
+  font-family: 'Roboto';
+}
+
+.clear-button {
+  background: none;
+  outline: none;
+  color: #0967d2;
+  border-color: #0967d2;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
